@@ -14,3 +14,4 @@ def rot13(message):
 
 print(rot13("EBG13 rknzcyr.")) # -> "ROT13 example."
 print(rot13("@[`{")) # -> "@[`{"
+print(rot13("123")) # -> "123"
