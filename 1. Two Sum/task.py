@@ -10,9 +10,11 @@ def twoSum(nums: list[int], target: int) -> list[int]:
         if target-value in arr:
             return index, arr[target-value]
         arr[value] = index
+        print(arr)
 
 
-nums = [2,7,11,15]
+
+nums = [2,11,7,15]
 target = 9
 print(twoSum(nums,target)) # -> [0,1]
 
