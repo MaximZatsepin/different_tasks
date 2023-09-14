@@ -8,11 +8,7 @@ Output: false
 Explanation: The binary representation of 7 is: 111.
 '''
 def hasAlternatingBits(n: int):# -> bool:
-    nn = str(bin(n))
-    for i in range(len(nn)-1):
-        if nn[i] == nn[i+1]:
-            return False
-    return True
+    return '11' not in bin(n) and '00' not in bin(n)
 
 # print(hasAlternatingBits(5)) # -> True
 # print(hasAlternatingBits(7)) # -> False
