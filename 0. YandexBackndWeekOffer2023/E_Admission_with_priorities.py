@@ -34,3 +34,17 @@
 -> -1 2 1 2
 
 '''
+
+
+n, k = map(int,input().split(' ')) # Количество студентов и программ
+programms = map(int,input().split(' ')) # Количество мест на i+1ую программу
+students = {}
+for i in range(n):
+    students[i] = input().split(' ')
+newStudents = dict(sorted(students.items(), key=lambda item: item[1])) # Отсортированные по рейтингу студенты
+# print(newStudents)
+arrayOfIndexes = []
+
+for student in newStudents.items():
+    # print(student)
+    index = student[0]
