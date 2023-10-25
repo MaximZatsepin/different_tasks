@@ -9,11 +9,17 @@ You must not use any built-in library function, such as sqrt.
 '''
 
 def isPerfectSquare(num: int) -> bool:
-    # print(num**0.5)
-    # print(num)
-    # print(num**0.5 * num**0.5)
-    return ((float(num**0.5)*float(num**0.5)) == (float(num)))
+    # print(f'num**0.5 {num**0.5}')
+    # print(f'num {num}')
+    # print(f'num**0.5 ^ 2 {num**0.5 * num**0.5}')
+    return ((int(num**0.5)*int(num**0.5)) == (num))
     
 
-
+print("Test case 14:")
 print(isPerfectSquare(14))
+
+print("Test case 4:")
+print(isPerfectSquare(4))
+
+print("Test case 9:")
+print(isPerfectSquare(9))
