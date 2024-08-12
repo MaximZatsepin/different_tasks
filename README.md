@@ -34,6 +34,7 @@
             </td>
             <td>
                 <a href = "https://github.com/wumpochuck"><b>Me (wumpochuck)</b></a>
+                <br> Commits in <b>main</b> branch
             </td>
         </tr>
     </tbody>
@@ -47,6 +48,7 @@
             </td>
             <td>
                 <a href = "https://github.com/Ulyanaaa"><b>Yokkochka</b></a>
+                <br> Commits in <b>main</b> branch
             </td>
         </tr>
     </tbody>
