@@ -54,3 +54,7 @@
     </tbody>
 </table>
 
+<!-- 
+[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=wumpochuck&repo=Different_Tasks)](https://github.com/wumpochuck/Different_Tasks) 
+ -->
+
