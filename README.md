@@ -47,7 +47,7 @@
                 <img width=50 src="https://avatars.githubusercontent.com/u/85567113"/>
             </td>
             <td>
-                <a href = "https://github.com/Ulyanaaa"><b>Yokkochka</b></a>
+                <a href = "https://github.com/yokkochka"><b>Yokkochka</b></a>
                 <br> Commits in <b>main</b> branch
             </td>
         </tr>
